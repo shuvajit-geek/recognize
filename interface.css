@@ -232,3 +232,16 @@ h2{
     width: 35px;
     animation-delay: 5s;
 }
+@media(max-width: 914px){
+    .play-btn{
+        display: none;
+    }
+    #go-live{
+        display: none;
+    }
+    .login-btn{
+        display: none;
+    }
+    .video-img{
+        display: none;
+}
