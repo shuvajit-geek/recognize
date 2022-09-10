@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(Images/img3/Background2.jpg);
+    background-size: cover;
+}
+.form{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    border-radius: 30px;
+}
+.form h1{
+    color: #fff;
+    font-weight: 700;
+}
+#usr_email_id,#usr_name_id,#usr_password_id{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+}
+#usr_email_id:focus,#usr_name_id:focus,#usr_password_id:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+#button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400ec;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+#button:hover{
+    background: #ffc400ec;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.anchor:hover{
+    color:#ffc400ec;
+}

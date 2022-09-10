@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!----    external css file    ---->
+    <link rel="stylesheet" href="home.css">
+    <!----   bootstrap file link   ---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!----  bootstrap icon link  ------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!---- fontawesome icon link  ----->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="Images/img2/logo2.png" alt="ASL-logo(recognize)"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="margin-left: auto;">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#top">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ASL
+                    </a>
+                    <ul class="dropdown-menu" id="ASL-dropdown" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#what-is-asl">What is ASL?</a></li>
+                      <li><a class="dropdown-item" href="#learn-asl">Learn ASL</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="Video_Call/index.html">Go-LIVE</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#creators" class="nav-link">CREATORS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!--------------------------banner section------------------------------->
+    <section id="banner">
+        <div class="container"> <!-- bootstrap class "container"-->
+            <div class="row"> <!--bootstrap grid-->
+                <div class="col-md-6"> <!-- as there are 12 units in grid system and we have 2 items we devide "12/2 that is 6"-->
+                    <p class="promo-title">ASL Detection and Recognition</p>
+                    <p><strong>ASL</strong> stands for <strong>American Sign Language</strong>. According to the World Federation of the Deaf, 
+                        there are more than 70 million deaf people worldwide, and they faced many problems to communicate with normal people.
+                        So we came up with a idea to gave a platform for those differently abled people, where they able to communicate to the people, to the world with their <b>'SIGN / GESTURE'</b>.</p>
+                    <a href="https://www.youtube.com/watch?v=VPueQKvB2Ck"><img src="Images/img2/play.png" alt="go-live" class="play-btn">Watch Video</a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid" src="Images/img2/home2.png" alt=" ASL picture">
+                </div>
+
+            </div>
+        </div>
+        <img class="bottom-img" src="Images/img2/wave1.png" alt="wavy-line-for design">
+    </section>
+
+    <!---------------------------------------------------------------- ASL --------------------------------------------------------->
+    
+    <section id="asl">
+      <div class="container text-center">
+        <h1 class="title">ASL</h1>
+        <div class="row text-center">
+          <div class="col-md-4 asl">
+            <img src="Images/img2/what-is-asl.png" alt="what-is-asl image" class="asl-img1" id="what-is-asl">
+            <h4>What is ASL?</h4>
+            <p><strong>American Sign Language (ASL)</strong> is a complete, natural language that has the same linguistic properties as spoken languages,
+               with grammar that differs from English. ASL is expressed by movements of the hands and face.
+               It is the primary language of many North Americans who are deaf and hard of hearing and is used by some hearing people as well.....<a href="https://www.nidcd.nih.gov/health/american-sign-language" style="text-decoration: none;">Learn more</a></p>
+            <a href="https://www.youtube.com/watch?v=3jqdRk-Naz4"><button type="button" class="btn btn-primary">watch video</button></a>  
+          </div>
+
+          <div class="col-md-4 asl" id="learn-asl">
+            <img src="Images/img2/learn asl.png" alt="learn-asl image" class="asl-img2">
+            <h4>Learn ASL</h4>
+            <p>Learning American Sign Language (ASL) takes time, patience, practice, and a sense of humor. <br>ASL is a visual language. With signing, the brain processes linguistic information through the eyes, and facial expressions and body movements play an important part in conveying information.</p>
+            <br>
+            <a href="https://www.signlanguage101.com/"><button type="button" class="btn btn-primary">learn more</button></a>
+            <a href="https://youtube.com/playlist?list=PL2rZQvyPycXJPaPuFSvtlyQxmb6GfNUP_"><button type="button" class="btn btn-primary">watch video</button></a>  
+          </div>
+
+          <div class="col-md-4 asl" id="live-video">
+            <img src="Images/img2/video-call.png" alt="video-call image" class="asl-img3">
+            <h4 style="text-decoration: none;">meet-fellows</h4>
+            <p>Meet and Greet your friends, family or near once with our inbuilt video calling app</p>
+            <img src="Images/img2/meet-play btn.jpg" alt="meet-play button" class="asl-meet-img4">
+            <br>
+            <a href="Video_Call/index.html"><button type="button" class="btn btn-primary">meet</button></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-------------------------------------About Us----------------------------------->
+    <section id="about-us">
+      <div class="container">
+        <h1 class="title text-center">Why Choose Us ?</h1>
+        <div class="row">
+          <div class="col-md-6 about-us">
+            <p class="about-title">Why we're different</p>
+              <ul>
+                <li>Providing a user friendly platform to oparate and understood.</li>
+                <li>Providing video calling feature to connect with people and discuss with them without any barier.</li>
+                <li>Providing Learning tools to learn about American Sign Language, if you're a complete Newbie! </li>
+                <li>Proiding video materials for more understanding.</li>
+                <li>Providing platform which has no bound, means you can access from any kind of device. (e.g android, iOS, tablets, iPad, desktop, you name it!)</li>
+              </ul>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <img src="Images/img2/network.png" alt="" class="img-fluid">
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!------------------------------------------ Meet Our Creators -------------------------------->
+    <section id="creators">
+      <div class="container">
+        <h1 class="title text-center"> MEET OUR CREATORS </h1>
+        <div class="row offset-1"> <!--  offset-1 means it will occupy 1 1 grid from each side---->
+
+          <div class="col-md-5 creators">
+            <p>Hi! Everyone, Thank You for visiting our website. In this website I took care the entire frontend and some backend part, I gave my best to make it beautiful and user friendly and tried my best to make it responsive for every kind of device. Please Give your valuable feedback on our work.</p>
+            <img src="Images/img2/user1.jpg" alt="" class="img-fluid">
+            <p class="creator-details"><b>Shuvajit Ghosh</b><br> B.Tech(CSE), Lovely Professional University <br>Full-Stack, Java, Automation/Manual Tester</p>
+          </div>
+
+          <div class="col-md-5 creators">
+            <p>Hi! Guys, Thanks for your attention on our work. In this website I took-care the whole Machine Learning part. I've created and trained the dataset with my own. And integrate the ML model with the video call. Please tell us what we need to improve by giving the feedback below!</p>
+            <img src="Images/img2/user2.jpeg" alt="" class="img-fluid">
+            <p class="creator-details"><b>Shivraj Kumar</b><br> B.Tech(CSE), Lovely Professional University <br> AI/ML, python, CAT aspirants</p>
+          </div>
+
+        </div>
+      </div>  
+    </section>
+    <!--------------------------------  Social Media Connect  ---------------------------->
+
+    <section id="social-media">
+      <div class="contaoner text-center">
+        <p>FIND US ON SOCIAL MEDIA</p>
+        <div class="social-icons">
+          <a href="#"><img src="Images/img2/facebook-icon.png" alt="facebook icon"></a>
+          <a href="#"><img src="Images/img2/instagram-icon.png" alt="instagram-icon"></a>
+          <a href="#"><img src="Images/img2/linkedin-icon.png" alt="linkedin-icon"></a>
+          <a href="#"><img src="Images/img2/whatsapp-icon.png" alt="whatsapp-icon"></a>
+          <a href="#"><img src="Images/img2/snapchat-icon.png" alt="snapchat-icon"></a>
+          <a href="#"><img src="Images/img2/twitter-icon.png" alt="twitter-icon"></a>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------- footer section ----------------------------->
+    <section id="footer">
+      <img src="Images/img2/wave2.png" alt="2nd wave png" class="footer-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="Images/img2/logo2.png" alt="logo">
+            <p> BELIVE in yourself, and Show the world YOU'RE able !!<p>
+          </div>
+
+          <div class="col-md-4 footer-box">
+            <p><b>Contact Us</b></p>
+            <p><i class="bi bi-geo-alt-fill"> </i>Lovely Professional University, Punjab</p>
+            <p><i class="bi bi-telephone"> </i>+91-9382187349</p>
+            <p><i class="bi bi-envelope"> </i>xyz@gmail.com</p>
+          </div>
+
+          <div class="col-md-4 footer-box">
+            <br>
+            <p><b>Give Us Feedback</b></p>
+            <button type="button" class="btn btn-primary">Feedback</button>
+          </div>
+
+        </div>
+        <hr>
+        <p class="copyright">website is crafted by @mr.sg</p>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
